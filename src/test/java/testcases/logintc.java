@@ -11,6 +11,8 @@ public class logintc extends baseclass {
 	@Test
   public void log()  {
 	  loginpage p=new loginpage(driver);
-	  p.login(prop.getProperty("mobileno"),prop.getProperty("password"));
+	  p.number.sendKeys("1234567890");
+	  p.password.sendKeys("12345678");
+	  p.login.click();
   }
 }

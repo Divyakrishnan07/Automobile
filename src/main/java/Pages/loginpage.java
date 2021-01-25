@@ -8,11 +8,11 @@ import org.openqa.selenium.support.PageFactory;
 public class loginpage {
 
 	@FindBy(xpath = "//*[@id=\"root\"]/div/div[2]/div/div[2]/div/div/div/div[2]/div/input")
-	WebElement number;
+	public WebElement number;
 	@FindBy(xpath = "//*[@id=\"root\"]/div/div[2]/div/div[2]/div/div/div/div[3]/div/input")
-    WebElement password;
+    public WebElement password;
 	@FindBy(xpath="//*[@id=\"root\"]/div/div[2]/div/div[2]/div/div/div/div[5]/button")
-	WebElement login;
+	public WebElement login;
 	public WebDriver driver;
 	
 	public loginpage(WebDriver driverm) {
